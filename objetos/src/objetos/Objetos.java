@@ -9,14 +9,18 @@ public class Objetos {
 
     public static void main(String[] args) {
         
-        Perro lasi,lasi2;
-        lasi = new Perro();
-        lasi2 = new Perro("Lasi", "Golden", 10, true);
+        //Gacela
+        Gacela gacela = new Gacela("Bambi", 5);
+        //Cocodrilo
+        Cocodrilo cocodrilo = new Cocodrilo("Dandil", 60, 26);
         
+        //System.out.println(gacela.getVelocidad());
+        //gacela.correr();
+        //System.out.println(gacela.getVelocidad());
         
-        lasi2.datosPerro();
-        lasi.ladrar(5);
-  
+        cocodrilo.morder(gacela);
+        System.out.println(gacela.getVida());
+        cocodrilo.morder(gacela);
         
     }
     
