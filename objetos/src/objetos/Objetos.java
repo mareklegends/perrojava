@@ -18,9 +18,11 @@ public class Objetos {
         //gacela.correr();
         //System.out.println(gacela.getVelocidad());
         
-        cocodrilo.morder(gacela);
-        System.out.println(gacela.getVida());
-        cocodrilo.morder(gacela);
+        System.out.println(cocodrilo.toString());
+        
+        //cocodrilo.morder(gacela);
+        //System.out.println(gacela.getVida());
+        //cocodrilo.morder(gacela);
         
     }
     

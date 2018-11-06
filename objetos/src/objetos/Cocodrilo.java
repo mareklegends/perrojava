@@ -76,6 +76,13 @@ public class Cocodrilo {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+
+    @Override
+    public String toString() {
+        return "Nombre = " + nombre + "\nPeso = " + peso + "\nEdad = " + edad;
+    }
+    
+
  
     
     
